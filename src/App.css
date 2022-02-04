@@ -1,0 +1,139 @@
+/* =================================== */
+/* Card Start CSS */
+.cardMain {
+    border: 1px solid lightgrey;
+    display: inline-block;
+    width: 215px;
+}
+
+.img {
+    width: 177px;
+    height: auto;
+}
+
+.disc {
+    display: inline-block;
+    position: relative;
+    bottom: auto;
+}
+
+
+.cardFirst {
+    position: relative;
+    text-align: center;
+}
+
+.cardTopLeft1 {
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    font-size: 10px;
+    color: white;
+    background-color: #7A7A7A;
+    border-radius: 5%;
+    padding: 3px;
+}
+
+.disc {
+    font-size: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #2BBEF9;
+    color: white;
+    border-radius: 5%;
+    padding: 3px;
+}
+
+.card-top-right1 {
+    position: absolute;
+    top: 45px;
+    right: 16px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding:7px;
+  }
+.card-top-right1:hover {
+    background-color: rgb(65,88,208);
+    color: white;
+    border-radius: 15px;
+    padding:7px;
+  }
+  .card-top-right2 {
+      position: absolute;
+      top: 0px;
+      right: 16px;
+      background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding:7px;
+    }
+    .card-top-right2:hover {
+        background-color: rgb(65,88,208);
+        color: white;
+        border-radius: 15px;
+        padding:7px;
+      }
+
+.cardSecond {
+    padding: 0 20 20;
+    font-size: 14px;
+    width: 216px;
+    height: 155;
+    font-family: sans-serif;
+}
+
+.cardFirstproduct {
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+}
+
+.cardSecondproduct {
+    margin: 0 0 10;
+    color: #00B853;
+    font: 11px Dosis, sans-serif;
+    padding-left: 10px;
+
+}
+.cardThirdproduct{
+    margin: 10px;    
+}
+.cardFourthproduct{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.cardFourthproductFirst{
+    opacity: 0.3;
+}
+.cardFourthproductSecond{
+    color: #D51243;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+/* Card End */
+/* =================================== */
+
+.navMain{
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+.logoDiv{
+    display: flex;
+    flex-direction: column;
+}
+.underLogoText{
+    margin: 0;
+    padding: 0ch;
+    font-size: 11px;
+    font-family: sans-serif;
+    color:#3E445A;
+}
+.logoimg{
+    width: 164px;
+    height: 44px;
+}
