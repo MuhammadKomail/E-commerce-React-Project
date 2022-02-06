@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from './Header'
-import Leftbar from './Leftbar'
 import Navbar from './Navbar'
 import Card from './Card'
 import Paper from '@mui/material/Paper';

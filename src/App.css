@@ -52,29 +52,32 @@
     background-color: white;
     color: black;
     border-radius: 15px;
-    padding:7px;
-  }
+    padding: 7px;
+}
+
 .card-top-right1:hover {
-    background-color: rgb(65,88,208);
+    background-color: rgb(65, 88, 208);
     color: white;
     border-radius: 15px;
-    padding:7px;
-  }
-  .card-top-right2 {
-      position: absolute;
-      top: 0px;
-      right: 16px;
-      background-color: white;
+    padding: 7px;
+}
+
+.card-top-right2 {
+    position: absolute;
+    top: 0px;
+    right: 16px;
+    background-color: white;
     color: black;
     border-radius: 15px;
-    padding:7px;
-    }
-    .card-top-right2:hover {
-        background-color: rgb(65,88,208);
-        color: white;
-        border-radius: 15px;
-        padding:7px;
-      }
+    padding: 7px;
+}
+
+.card-top-right2:hover {
+    background-color: rgb(65, 88, 208);
+    color: white;
+    border-radius: 15px;
+    padding: 7px;
+}
 
 .cardSecond {
     padding: 0 20 20;
@@ -97,43 +100,298 @@
     padding-left: 10px;
 
 }
-.cardThirdproduct{
-    margin: 10px;    
+
+.cardThirdproduct {
+    margin: 10px;
 }
-.cardFourthproduct{
+
+.cardFourthproduct {
     display: flex;
     flex-direction: row;
     margin: 10px;
 }
-.cardFourthproductFirst{
+
+.cardFourthproductFirst {
     opacity: 0.3;
 }
-.cardFourthproductSecond{
+
+.cardFourthproductSecond {
     color: #D51243;
     font-weight: bold;
     font-family: sans-serif;
 }
+
 /* Card End */
 /* =================================== */
 
-.navMain{
+/* =================================== */
+/* Second Nav Start */
+
+
+
+.navMain {
     display: block;
     background-color: white;
     color: black;
     padding: 20px;
 }
-.logoDiv{
+
+.subMain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navFirstMain {
+    display: flex;
+    flex-direction: row;
+}
+
+.select {
+    padding: 0%;
+    margin: 0%;
+}
+
+.SecondNavBarMain {
+    display: block;
+    flex-direction: row;
+    padding: 15px;
+    color: #ffffff !important;
+    background-color: black;
+
+}
+
+.SecondNavBarMainSub {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.link {
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 14px;
+}
+
+.link:hover {
+    opacity: 0.4;
+    text-decoration: none !important;
+    color: black;
+}
+
+.SecondNavBarMainSecond, .SecondNavBarMainThird, .SecondNavBarMainFourth, .SecondNavBarMainFifth, .SecondNavBarMainSixth, .SecondNavBarMainSeven, .SecondNavBarMainEight, .SecondNavBarMainNine, .SecondNavBarMainTen {
+    margin-top: 5px;
+}
+
+
+.dropDownLink {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.dropDownLink:hover {
+    text-decoration: none !important;
+    /* color: black ; */
+    color: #D51243 !important;
+}
+
+.dropdownCardMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    /* margin-left: 100px; */
+}
+
+.dropdownCardMainBrand {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    /* margin: 100px; */
+}
+
+.dropdownCardMainFirst {
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+.dropdownCardMainSecond {
+    font-weight: bolder;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 13px;
+}
+
+.dropdownCardMainThird {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.dropdownCardMainFirstSub {
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
 }
-.underLogoText{
-    margin: 0;
-    padding: 0ch;
-    font-size: 11px;
-    font-family: sans-serif;
-    color:#3E445A;
+
+.dropDownLinkSub {
+    text-decoration: none !important;
+    color: black !important;
+    font-weight: lighter;
 }
-.logoimg{
-    width: 164px;
-    height: 44px;
+
+.dropDownLinkSub:hover {
+    text-decoration: none !important;
+    color: #D51243 !important;
+}
+
+.dropdownCardMainThird {
+    padding: 50px;
+}
+
+.b1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.selectButton:hover {
+    opacity: 0.4;
+}
+
+.selectButton {
+    font-size: 13px;
+}
+
+/* Second Nav End */
+/* =================================== */
+
+
+/* =================================== */
+/* First Nav Start */
+
+.firstNavMain {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.firstNavMainFirst {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* padding: 10px; */
+    margin: 0%;
+    padding: 0%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.search {
+    background: none;
+    border: none;
+    padding: 10px;
+    width: auto;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.firstNavSearchBar {
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+.firstNavMainFirst1 {
+    padding: 0%;
+    margin: 0%;
+}
+
+.firstNavMainFirst2 {
+    padding: 0%;
+    margin: 0%;
+}
+
+.firstNavMainFirst3 {
+    margin: 0%;
+    padding: 0%;
+}
+
+.firstNavbtn {
+    outline: none;
+    border: none;
+    padding: 5px;
+    background: none;
+    padding: 10px;
+}
+
+.border {
+    border: 1px solid black;
+    flex-direction: row;
+    display: flex;
+    border-radius: 10px;
+}
+.border1 {
+    border: 1px solid black;
+    flex-direction: row;
+    display: flex;
+    border-radius: 10px;
+}
+
+.border:hover {
+    color: #2BBEF9;
+    border: 1px solid #2BBEF9;
+}
+
+.border::after {
+    color: #2BBEF9;
+    border: 1px solid #2BBEF9;
+}
+
+.border::selection {
+    color: #2BBEF9;
+    border: 1px solid #2BBEF9;
+}
+.firstNavMainLast{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.firstNavIcon{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 10px; */
+}
+.personIcon{
+    color: black !important;
+    opacity: 0.8;
+}
+/* Second Nav End */
+/* =================================== */
+
+
+.MobileNavBarMainFirst{
+    background-color: white;
+    color: black;
+}
+.lastMobileNav{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.mobileNavBarDrawerFontSize{
+    font-size: 14px;
+    /* font-weight: bold; */
+}
+.icons{
+    transform: scale(1.0);
+    padding-top: 10px;
 }
