@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from '@mui/material/Link';
-import logo from '../images/bacola-logo.png'
+import logo from '../images/logo.png'
 
 
 export default function dropdownCard() {

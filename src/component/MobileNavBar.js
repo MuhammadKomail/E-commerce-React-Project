@@ -17,7 +17,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import NavDropdown from 'react-bootstrap/NavDropdown'
-import logo from '../images/bacola-logo.png'
+import logo from '../images/logo.png'
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import Collapse from "@material-ui/core/Collapse";
@@ -107,7 +107,7 @@ export default function PersistentDrawerLeft() {
         <Box>
             <CssBaseline />
             <AppBar position="fixed" open={open}>
-                <Toolbar className="MobileNavBarMainFirst" sx={{ backgrounCOlor: "white !important" }}>
+                <Toolbar sx={{marginTop:5}} className="MobileNavBarMainFirst" sx={{ backgrounCOlor: "white !important" }}>
                     <IconButton
                         aria-label="open drawer"
                         onClick={handleDrawerOpen}
@@ -117,7 +117,7 @@ export default function PersistentDrawerLeft() {
                         <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                        <img src={logo} alt="Logo" width="120rem" />
+                        <img src={logo} alt="Logo" className="imgMobileLogo" sx={{marginTop:5}} width="100rem" />
                     </Typography>
                     <ShoppingBagIcon sx={{ color: "black" }} />
                     <Typography className="lastMobileNav">

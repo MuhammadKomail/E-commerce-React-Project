@@ -11,7 +11,7 @@ export default function Navbar() {
   }
   return (
     <>
-      <div className='SecondNavBarMain'>
+      <div  className='SecondNavBarMain'>
         <div className='SecondNavBarMainSub'>
           <div className='SecondNavBarMainFirst'>
             <Dropdown />

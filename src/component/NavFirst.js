@@ -2,7 +2,7 @@ import React from 'react';
 import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import { Link } from '@mui/material';
-import logo from '../images/bacola-logo.png'
+import logo from '../images/logo.png'
 import LocalMallIcon from '@mui/icons-material/LocalMall';
 
 
